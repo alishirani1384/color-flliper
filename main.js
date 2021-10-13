@@ -12,9 +12,7 @@ btn.addEventListener('click',()=>{
     code.style.color=hexColor
     code.textContent=hexColor
     button.style.background=hexColor
-
-    
-    
+   
 })
 function getrandomNumber() {
     return Math.floor(Math.random()*hex.length)
